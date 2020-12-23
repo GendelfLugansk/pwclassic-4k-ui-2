@@ -1,7 +1,8 @@
 #Пати-мембер
 DIALOG "Win_TeamMate3" 0 0 228 60 0 1 10 "Window\对话框_透明色3.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 200 1
-PROGRESS "Prgs_HP" "" "" 42 36 180 12 "Window\对话框_透明色.bmp" "Progress\进度条_红2.bmp" 0 0 0 0
-PROGRESS "Prgs_MP" "" "" 42 48 180 12 "Window\对话框_透明色.bmp" "Progress\进度条_兰2.bmp" 0 0 0 0
+PROGRESS "Prgs_HP" "" "" 42 36 180 12 "Window\对话框_透明色.bmp" "4kv2\progress\hpbar.tga" 0 0 0 0
+PROGRESS "Prgs_MP" "" "" 42 48 180 12 "Window\对话框_透明色.bmp" "4kv2\progress\mpbar.tga" 0 0 0 0
+IMAGEPICTURE "" "" "" 42 36 180 24 1 0 "4kv2\teammate_hpmp_cover.tga"
 IMAGEPICTURE "CombatMask" "" "" 0 -2 407 72 1 0 "Window\Mask2.dds"
 IMAGEPICTURE "Image_Prof" "" "" 6 4 28 28 16 0 "Ingame\Profession.tga"
 LABEL "Txt_LV" "" "" 3 32 40 24 2 16 3 255 203 74 255
