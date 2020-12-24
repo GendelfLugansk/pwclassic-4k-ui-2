@@ -53,30 +53,26 @@ IMAGEPICTURE "St_20" "" "" 1230 40 32 32 1 0 "Window\对话框_透明色.bmp"
 #Progress bars line 1
 
 PROGRESS "Prgs_HP" "" "" 219 76 2280 48 "4kv2\progress\hpbarbg.tga" "4kv2\progress\hpbar.tga" 0 0 0 0
-IMAGEPICTURE "" "" "" 218 76 1 48 1 0 "4kv2\progress\hpbar.tga"
-IMAGEPICTURE "" "" "" 2499 76 1 48 1 0 "4kv2\progress\hpbar.tga"
-IMAGEPICTURE "" "" "" 219 77 2280 46 1 0 "4kv2\hpmpxp_hp_cover.tga"
+IMAGEPICTURE "" "" "" 218 76 1 48 1 0 "4kv2\progress\hpbar_side.tga"
+IMAGEPICTURE "" "" "" 2499 76 1 48 1 0 "4kv2\progress\hpbar_side.tga"
 LABEL "Txt_HP" "" "" 1359 76 0 0 12 30 13 255 255 255 255
 
 #Progress bars line 2
 
-PROGRESS "Prgs_MP" "" "" 219 128 1158 48 "4kv2\progress\mpbarbg.tga" "4kv2\progress\mpbar.tga" 0 0 0 0
-IMAGEPICTURE "" "" "" 218 128 1 48 1 0 "4kv2\progress\mpbar.tga"
-IMAGEPICTURE "" "" "" 1217 128 1 48 1 0 "4kv2\progress\mpbar.tga"
-IMAGEPICTURE "" "" "" 219 129 1158 46 1 0 "4kv2\hpmpxp_mp_cover.tga"
-LABEL "Txt_MP" "" "" 798 128 0 0 10 30 11 255 255 255 255
+PROGRESS "Prgs_MP" "" "" 219 128 1160 48 "4kv2\progress\mpbarbg.tga" "4kv2\progress\mpbar.tga" 0 0 0 0
+IMAGEPICTURE "" "" "" 218 128 1 48 1 0 "4kv2\progress\mpbar_side.tga"
+IMAGEPICTURE "" "" "" 1379 128 1 48 1 0 "4kv2\progress\mpbar_side.tga"
+LABEL "Txt_MP" "" "" 799 128 0 0 10 30 11 255 255 255 255
 
-PROGRESS "Prgs_EXP" "" "" 1383 128 498 48 "4kv2\progress\xpbarbg.tga" "4kv2\progress\xpbar.tga" 0 0 0 0
-IMAGEPICTURE "" "" "" 1382 128 1 48 1 0 "4kv2\progress\xpbar.tga"
-IMAGEPICTURE "" "" "" 1881 128 1 48 1 0 "4kv2\progress\xpbar.tga"
-IMAGEPICTURE "Pic_MinusExp" "" "" 1382 128 500 48 1 0 "Progress\进度条_棕2.bmp"
-IMAGEPICTURE "" "" "" 1383 129 498 46 1 0 "4kv2\hpmpxp_xp_cover.tga"
+PROGRESS "Prgs_EXP" "" "" 1385 128 496 48 "4kv2\progress\xpbarbg.tga" "4kv2\progress\xpbar.tga" 0 0 0 0
+IMAGEPICTURE "" "" "" 1384 128 1 48 1 0 "4kv2\progress\xpbar_side.tga"
+IMAGEPICTURE "" "" "" 1881 128 1 48 1 0 "4kv2\progress\xpbar_side.tga"
+IMAGEPICTURE "Pic_MinusExp" "" "" 1384 128 498 48 1 0 "Progress\进度条_棕2.bmp"
 LABEL "TXT_EXP" "" "" 1632 128 0 0 2 30 3 255 255 255 255
 
-PROGRESS "Prgs_AP" "" "" 1887 128 498 48 "4kv2\progress\apbarbg.tga" "4kv2\progress\apbar.tga" 0 1 0 1
-IMAGEPICTURE "" "" "" 1886 128 1 48 1 0 "4kv2\progress\apbar.tga"
-IMAGEPICTURE "" "" "" 2385 128 1 48 1 0 "4kv2\progress\apbar.tga"
-IMAGEPICTURE "" "" "" 1887 129 498 46 1 0 "4kv2\hpmpxp_ap_cover.tga"
+PROGRESS "Prgs_AP" "" "" 1887 128 496 48 "4kv2\progress\apbarbg.tga" "4kv2\progress\apbar.tga" 0 1 0 1
+IMAGEPICTURE "" "" "" 1886 128 1 48 1 0 "4kv2\progress\apbar_side.tga"
+IMAGEPICTURE "" "" "" 2383 128 1 48 1 0 "4kv2\progress\apbar_side.tga"
 
 IMAGEPICTURE "Img_P1off" "" "" 2380 110 80 80 1 0 "Progress\AP_A.tga"
 IMAGEPICTURE "Img_P1on" "" "" 2380 110 80 80 6 75 "Progress\AP_B.tga"
