@@ -1,10 +1,9 @@
 #Собственные хп/мп/эксп/статусы (верхний левый угол)
 DIALOG "Win_Hpmpxp" 0 0 2500 208 0 1 10 "" "" "" 0 0 -1 -1 "" 0 0 96 96 96 6 1
 
-#Background, face and battle mask
+#Background, face
 
 IMAGEPICTURE "Back1" "" "" 0 0 208 208 1 0 "4kv2\hpmpxp_back1.tga"
-IMAGEPICTURE "CombatMask" "" "" 25 25 158 158 1 0 "4kv2\hpmpxp_mask1.tga"
 IMAGEPICTURE "Size" "" "" 32 32 144 144 1 0 "Window\对话框_透明色.bmp"
 
 #Level, prof, name, leader mark
@@ -52,27 +51,27 @@ IMAGEPICTURE "St_20" "" "" 1230 40 32 32 1 0 "Window\对话框_透明色.bmp"
 
 #Progress bars line 1
 
-PROGRESS "Prgs_HP" "" "" 219 76 2280 48 "4kv2\progress\hpbarbg.tga" "4kv2\progress\hpbar.tga" 0 0 0 0
-IMAGEPICTURE "" "" "" 218 76 1 48 1 0 "4kv2\progress\hpbar_side.tga"
-IMAGEPICTURE "" "" "" 2499 76 1 48 1 0 "4kv2\progress\hpbar_side.tga"
-LABEL "Txt_HP" "" "" 1359 76 0 0 12 30 13 255 255 255 255
+PROGRESS "Prgs_HP" "" "" 223 76 2272 48 "4kv2\progress\hpbarbg.tga" "4kv2\progress\hpbar.tga" 0 0 0 0
+IMAGEPICTURE "" "" "" 218 76 5 48 1 0 "4kv2\progress\hpbar_l.tga"
+IMAGEPICTURE "" "" "" 2495 76 5 48 1 0 "4kv2\progress\hpbar_r.tga"
+LABEL "Txt_HP" "" "" 1359 79 0 0 12 30 13 255 203 74 255
 
 #Progress bars line 2
 
-PROGRESS "Prgs_MP" "" "" 219 128 1160 48 "4kv2\progress\mpbarbg.tga" "4kv2\progress\mpbar.tga" 0 0 0 0
-IMAGEPICTURE "" "" "" 218 128 1 48 1 0 "4kv2\progress\mpbar_side.tga"
-IMAGEPICTURE "" "" "" 1379 128 1 48 1 0 "4kv2\progress\mpbar_side.tga"
-LABEL "Txt_MP" "" "" 799 128 0 0 10 30 11 255 255 255 255
+PROGRESS "Prgs_MP" "" "" 223 128 1152 48 "4kv2\progress\mpbarbg.tga" "4kv2\progress\mpbar.tga" 0 0 0 0
+IMAGEPICTURE "" "" "" 218 128 5 48 1 0 "4kv2\progress\mpbar_l.tga"
+IMAGEPICTURE "" "" "" 1375 128 5 48 1 0 "4kv2\progress\mpbar_r.tga"
+LABEL "Txt_MP" "" "" 799 131 0 0 10 30 11 255 203 74 255
 
-PROGRESS "Prgs_EXP" "" "" 1385 128 496 48 "4kv2\progress\xpbarbg.tga" "4kv2\progress\xpbar.tga" 0 0 0 0
-IMAGEPICTURE "" "" "" 1384 128 1 48 1 0 "4kv2\progress\xpbar_side.tga"
-IMAGEPICTURE "" "" "" 1881 128 1 48 1 0 "4kv2\progress\xpbar_side.tga"
-IMAGEPICTURE "Pic_MinusExp" "" "" 1384 128 498 48 1 0 "Progress\进度条_棕2.bmp"
-LABEL "TXT_EXP" "" "" 1632 128 0 0 2 30 3 255 255 255 255
+PROGRESS "Prgs_EXP" "" "" 1389 128 488 48 "4kv2\progress\xpbarbg.tga" "4kv2\progress\xpbar.tga" 0 0 0 0
+IMAGEPICTURE "" "" "" 1384 128 5 48 1 0 "4kv2\progress\xpbar_l.tga"
+IMAGEPICTURE "" "" "" 1877 128 5 48 1 0 "4kv2\progress\xpbar_r.tga"
+IMAGEPICTURE "Pic_MinusExp" "" "" 1389 133 488 38 1 0 "Progress\进度条_棕2.bmp"
+LABEL "TXT_EXP" "" "" 1632 131 0 0 2 30 3 255 203 74 255
 
-PROGRESS "Prgs_AP" "" "" 1887 128 496 48 "4kv2\progress\apbarbg.tga" "4kv2\progress\apbar.tga" 0 1 0 1
-IMAGEPICTURE "" "" "" 1886 128 1 48 1 0 "4kv2\progress\apbar_side.tga"
-IMAGEPICTURE "" "" "" 2383 128 1 48 1 0 "4kv2\progress\apbar_side.tga"
+PROGRESS "Prgs_AP" "" "" 1891 128 488 48 "4kv2\progress\apbarbg.tga" "4kv2\progress\apbar.tga" 0 1 0 1
+IMAGEPICTURE "" "" "" 1886 128 5 48 1 0 "4kv2\progress\apbar_l.tga"
+IMAGEPICTURE "" "" "" 2379 128 5 48 1 0 "4kv2\progress\apbar_r.tga"
 
 IMAGEPICTURE "Img_P1off" "" "" 2380 110 80 80 1 0 "Progress\AP_A.tga"
 IMAGEPICTURE "Img_P1on" "" "" 2380 110 80 80 6 75 "Progress\AP_B.tga"
@@ -83,6 +82,9 @@ IMAGEPICTURE "Img_P2flash" "" "" 2410 110 80 80 3 150 "Progress\AP_C.tga"
 IMAGEPICTURE "Img_P3off" "" "" 2440 110 80 80 1 0 "Progress\AP_A.tga"
 IMAGEPICTURE "Img_P3on" "" "" 2440 110 80 80 6 75 "Progress\AP_B.tga"
 IMAGEPICTURE "Img_P3flash" "" "" 2440 110 80 80 3 150 "Progress\AP_C.tga"
+
+#Combat mask
+IMAGEPICTURE "CombatMask" "" "" 0 0 2500 208 1 0 "4kv2\hpmpxp_mask.tga"
 
 #Trash
 IMAGEPICTURE "Img_BGclose" "" "" -9000 10 44 44 1 0 "Button\背景.tga"
