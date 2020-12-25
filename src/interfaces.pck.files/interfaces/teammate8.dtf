@@ -1,11 +1,11 @@
 #Пати-мембер
 DIALOG "Win_TeamMate8" 0 0 228 60 0 1 10 "Window\对话框_透明色3.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 200 1
-PROGRESS "Prgs_HP" "" "" 42 36 186 12 "Window\对话框_透明色.bmp" "4kv2\progress\hpbar.tga" 0 0 0 0
-PROGRESS "Prgs_MP" "" "" 42 48 186 12 "Window\对话框_透明色.bmp" "4kv2\progress\mpbar.tga" 0 0 0 0
-IMAGEPICTURE "CombatMask" "" "" 0 -2 407 72 1 0 "Window\Mask2.dds"
-IMAGEPICTURE "Image_Prof" "" "" 6 4 28 28 16 0 "Ingame\Profession.tga"
-LABEL "Txt_LV" "" "" 3 32 40 24 2 16 3 255 203 74 255
-LABEL "Txt_CharName" "" "" 38 2 212 28 4 20 5 255 255 255 255
+PROGRESS "Prgs_HP" "" "" 0 0 228 42 "4kv2\progress\teammate_hpbarbg.tga" "4kv2\progress\teammate_hpbar.tga" 0 0 0 0
+PROGRESS "Prgs_MP" "" "" 0 42 228 16 "4kv2\progress\teammate_mpbarbg.tga" "4kv2\progress\teammate_mpbar.tga" 0 0 0 0
+IMAGEPICTURE "Image_Prof" "" "" 6 7 28 28 16 0 "Ingame\Profession.tga"
+IMAGEPICTURE "CombatMask" "" "" 0 0 228 42 1 0 "4kv2\teammate_mask.tga"
+LABEL "Txt_LV" "" "" 2 36 40 24 2 16 3 255 203 74 255
+LABEL "Txt_CharName" "" "" 38 2 212 28 4 22 5 255 255 255 255
 IMAGEPICTURE "St_1" "" "" 230 0 28 28 1 0 "Window\对话框_透明色.bmp"
 IMAGEPICTURE "St_2" "" "" 230 30 28 28 1 0 "Window\对话框_透明色.bmp"
 IMAGEPICTURE "St_3" "" "" 260 0 28 28 1 0 "Window\对话框_透明色.bmp"
