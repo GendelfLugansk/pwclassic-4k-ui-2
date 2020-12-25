@@ -1,10 +1,9 @@
 #Собственные хп/мп/эксп/статусы (верхний левый угол)
 DIALOG "Win_Hpmpxp" 0 0 2500 208 0 1 10 "" "" "" 0 0 -1 -1 "" 0 0 96 96 96 6 1
 
-#Background, face
+#Background
 
 IMAGEPICTURE "Back1" "" "" 0 0 208 208 1 0 "4kv2\hpmpxp_back1.tga"
-IMAGEPICTURE "Size" "" "" 32 32 144 144 1 0 "Window\对话框_透明色.bmp"
 
 #Level, prof, name, leader mark
 
@@ -85,6 +84,9 @@ IMAGEPICTURE "Img_P3flash" "" "" 2440 110 80 80 3 150 "Progress\AP_C.tga"
 
 #Combat mask
 IMAGEPICTURE "CombatMask" "" "" 0 0 2500 208 1 0 "4kv2\hpmpxp_mask.tga"
+
+#Character's face
+IMAGEPICTURE "Size" "" "" 32 32 144 144 1 0 "Window\对话框_透明色.bmp"
 
 #Trash
 IMAGEPICTURE "Img_BGclose" "" "" -9000 10 44 44 1 0 "Button\背景.tga"
