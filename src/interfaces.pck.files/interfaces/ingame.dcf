@@ -7,7 +7,7 @@ EnterWait.dtf		-1	-1	0
 AutoLock.dtf			-1	-1	0
 BBS.dtf			-1	-1	0
 Chat.dtf		0	-2	1
-ChatSmall.dtf		0	-170	1
+ChatSmall.dtf		0	-480	1
 Pop.dtf			-1	200	1
 Poplist.dtf		-1	120	0
 Popface.dtf		-1	-1	0
@@ -45,19 +45,19 @@ Sign4.dtf		0	0	0
 Sign5.dtf		0	0	0
 
 HideHP.dtf		0	0	1
-Hpmpxp.dtf		650	-392	1
+Hpmpxp.dtf		650	-410	1
 HpOther.dtf		-1	0	0
 HpOtherB.dtf		-1	0	0
 HpmpOther.dtf		-1	0	0
 HpmpOtherB.dtf		-1	0	0
-Progress.dtf		-1000	-600	0
-Progress1.dtf		-1000	-600	0
-Progress2.dtf		-1	-600	0
-Progress_HP.dtf	    -600 -600	0
-Progress_MP.dtf	    -800	-600 0
-MagicProgress1.dtf	-1	-600	0
-MagicProgress2.dtf	-1	-600	0
-MagicProgress3.dtf	-1	-600	0
+Progress.dtf		-1000	-578	0
+Progress1.dtf		-1000	-578	0
+Progress2.dtf		-1	-578	0
+Progress_HP.dtf	    -500 -578	0
+Progress_MP.dtf	    -700	-578 0
+MagicProgress1.dtf	-1	-578	0
+MagicProgress2.dtf	-1	-578	0
+MagicProgress3.dtf	-1	-578	0
 Popmsg.dtf		-1	15	0
 Broken.dtf		0	-1	1
 AccountTime.dtf	-1	10	0
