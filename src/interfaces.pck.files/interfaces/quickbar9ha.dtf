@@ -1,17 +1,18 @@
 #Панель быстрого доступа на 9 ячеек горизонтальная
-DIALOG "Win_Quickbar9Ha" 0 0 664 82 0 1 10 "Window\对话框_标准边框-x2.dds" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1
-STILLIMAGEBUTTON "Btn_Vertigo" "switch" "SFX\Interface\ClickB.wav" 626 30 24 24 0 0 0 0 2 30 255 0 255 255 "Button\按钮_水平1-x2.tga" "Button\按钮_水平2-x2.tga" 3 1
-STILLIMAGEBUTTON "Btn_New" "new" "SFX\Interface\ClickB.wav" 8 28 24 24 0 0 0 0 4 30 255 0 255 255 "Button\按钮_选择1-x2.tga" "Button\按钮_选择2-x2.tga" 5 1
-STILLIMAGEBUTTON "Btn_Other" "openextra" "SFX\Interface\ClickB.wav" 8 4 24 24 0 0 0 0 6 30 255 0 255 255 "Button\按钮_A1-x2.tga" "Button\按钮_A2-x2.tga" 7 1
-IMAGEPICTURE "Item_1" "" "" 32 10 64 64 1 0 "Window\图标_物品栏.dds"
-IMAGEPICTURE "Item_2" "" "" 98 10 64 64 1 0 "Window\图标_物品栏.dds"
-IMAGEPICTURE "Item_3" "" "" 164 10 64 64 1 0 "Window\图标_物品栏.dds"
-IMAGEPICTURE "Item_4" "" "" 230 10 64 64 1 0 "Window\图标_物品栏.dds"
-IMAGEPICTURE "Item_5" "" "" 296 10 64 64 1 0 "Window\图标_物品栏.dds"
-IMAGEPICTURE "Item_6" "" "" 362 10 64 64 1 0 "Window\图标_物品栏.dds"
-IMAGEPICTURE "Item_7" "" "" 428 10 64 64 1 0 "Window\图标_物品栏.dds"
-IMAGEPICTURE "Item_8" "" "" 494 10 64 64 1 0 "Window\图标_物品栏.dds"
-IMAGEPICTURE "Item_9" "" "" 560 10 64 64 1 0 "Window\图标_物品栏.dds"
-STILLIMAGEBUTTON "Btn_Add" "add" "SFX\Interface\ClickB.wav" 624 10 24 24 0 0 0 0 8 30 255 0 255 255 "Button\按钮_U1-x2.tga" "Button\按钮_U2-x2.tga" 9 1
-STILLIMAGEBUTTON "Btn_Minus" "minus" "SFX\Interface\ClickB.wav" 624 52 24 24 0 0 0 0 10 30 255 0 255 255 "Button\按钮_D1-x2.tga" "Button\按钮_D2-x2.tga" 11 1
-IMAGEPICTURE "Control_148171745" "" "" 12 52 18 24 1 0 "Extra\复选框_快捷栏单-x2.bmp"
+DIALOG "Win_Quickbar9Ha" 0 0 664 70 0 1 10 "4kv2\window\quickbar.dds" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1
+STILLIMAGEBUTTON "Btn_Other" "openextra" "SFX\Interface\ClickB.wav" 4 2 24 24 0 0 0 0 6 30 255 0 255 255 "Button\按钮_A1-x2.tga" "Button\按钮_A2-x2.tga" 7 1
+STILLIMAGEBUTTON "Btn_New" "new" "SFX\Interface\ClickB.wav" 4 26 24 24 0 0 0 0 4 30 255 0 255 255 "Button\按钮_选择1-x2.tga" "Button\按钮_选择2-x2.tga" 5 1
+IMAGEPICTURE "Control_148171745" "" "" 8 50 18 24 1 0 "Extra\复选框_快捷栏单-x2.bmp"
+IMAGEPICTURE "Item_1" "" "" 32 2 64 64 1 0 "4kv2\window\blue_cell.dds"
+IMAGEPICTURE "Item_2" "" "" 98 2 64 64 1 0 "4kv2\window\blue_cell.dds"
+IMAGEPICTURE "Item_3" "" "" 164 2 64 64 1 0 "4kv2\window\blue_cell.dds"
+IMAGEPICTURE "Item_4" "" "" 230 2 64 64 1 0 "4kv2\window\blue_cell.dds"
+IMAGEPICTURE "Item_5" "" "" 296 2 64 64 1 0 "4kv2\window\blue_cell.dds"
+IMAGEPICTURE "Item_6" "" "" 362 2 64 64 1 0 "4kv2\window\blue_cell.dds"
+IMAGEPICTURE "Item_7" "" "" 428 2 64 64 1 0 "4kv2\window\blue_cell.dds"
+IMAGEPICTURE "Item_8" "" "" 494 2 64 64 1 0 "4kv2\window\blue_cell.dds"
+IMAGEPICTURE "Item_9" "" "" 560 2 64 64 1 0 "4kv2\window\blue_cell.dds"
+STILLIMAGEBUTTON "Btn_Add" "add" "SFX\Interface\ClickB.wav" 632 2 24 24 0 0 0 0 8 30 255 0 255 255 "Button\按钮_U1-x2.tga" "Button\按钮_U2-x2.tga" 9 1
+STILLIMAGEBUTTON "Btn_Vertigo" "switch" "SFX\Interface\ClickB.wav" 634 22 24 24 0 0 0 0 2 30 255 0 255 255 "Button\按钮_水平1-x2.tga" "Button\按钮_水平2-x2.tga" 3 1
+STILLIMAGEBUTTON "Btn_Minus" "minus" "SFX\Interface\ClickB.wav" 632 44 24 24 0 0 0 0 10 30 255 0 255 255 "Button\按钮_D1-x2.tga" "Button\按钮_D2-x2.tga" 11 1
+

@@ -1,12 +1,12 @@
 #Панель быстрого доступа на 9 ячеек горизонтальная, дополнительная
-DIALOG "Win_Quickbar9Hb_3" 0 0 664 84 0 1 10 "Window\对话框_快捷板-x2.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 135 1
-IMAGEPICTURE "Item_1" "" "" 32 10 64 64 1 0 "Window\图标_物品栏j.dds"
-IMAGEPICTURE "Item_2" "" "" 98 10 64 64 1 0 "Window\图标_物品栏j.dds"
-IMAGEPICTURE "Item_3" "" "" 164 10 64 64 1 0 "Window\图标_物品栏j.dds"
-IMAGEPICTURE "Item_4" "" "" 230 10 64 64 1 0 "Window\图标_物品栏j.dds"
-IMAGEPICTURE "Item_5" "" "" 296 10 64 64 1 0 "Window\图标_物品栏j.dds"
-IMAGEPICTURE "Item_6" "" "" 362 10 64 64 1 0 "Window\图标_物品栏j.dds"
-IMAGEPICTURE "Item_7" "" "" 428 10 64 64 1 0 "Window\图标_物品栏j.dds"
-IMAGEPICTURE "Item_8" "" "" 494 10 64 64 1 0 "Window\图标_物品栏j.dds"
-IMAGEPICTURE "Item_9" "" "" 560 10 64 64 1 0 "Window\图标_物品栏j.dds"
-CHECK "Chk_Normal" "enableext" "SFX\Interface\ClickA.wav" 12 50 18 24 "Extra\复选框_激活-x2.tga"
+DIALOG "Win_Quickbar9Hb_3" 0 0 664 68 0 1 10 "4kv2\window\quickbar.dds" "" "" 0 0 -1 -1 "" 0 0 96 96 96 135 1
+IMAGEPICTURE "Item_1" "" "" 32 2 64 64 1 0 "Window\图标_物品栏j.dds"
+IMAGEPICTURE "Item_2" "" "" 98 2 64 64 1 0 "Window\图标_物品栏j.dds"
+IMAGEPICTURE "Item_3" "" "" 164 2 64 64 1 0 "Window\图标_物品栏j.dds"
+IMAGEPICTURE "Item_4" "" "" 230 2 64 64 1 0 "Window\图标_物品栏j.dds"
+IMAGEPICTURE "Item_5" "" "" 296 2 64 64 1 0 "Window\图标_物品栏j.dds"
+IMAGEPICTURE "Item_6" "" "" 362 2 64 64 1 0 "Window\图标_物品栏j.dds"
+IMAGEPICTURE "Item_7" "" "" 428 2 64 64 1 0 "Window\图标_物品栏j.dds"
+IMAGEPICTURE "Item_8" "" "" 494 2 64 64 1 0 "Window\图标_物品栏j.dds"
+IMAGEPICTURE "Item_9" "" "" 560 2 64 64 1 0 "Window\图标_物品栏j.dds"
+CHECK "Chk_Normal" "enableext" "SFX\Interface\ClickA.wav" 8 8 18 24 "Extra\复选框_激活-x2.tga"

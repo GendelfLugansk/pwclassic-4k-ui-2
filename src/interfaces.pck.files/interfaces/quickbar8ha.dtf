@@ -1,24 +1,24 @@
 #Панель быстрого доступа на 8 ячеек горизонтальная
-DIALOG "Win_Quickbar8Ha" 0 0 590 82 0 1 10 "Window\对话框_标准边框-x2.dds" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1
-STILLIMAGEBUTTON "Btn_New" "new" "SFX\Interface\ClickB.wav" 8 28 24 24 0 0 0 0 2 30 255 0 255 255 "Button\按钮_选择1-x2.tga" "Button\按钮_选择2-x2.tga" 3 1
-STILLIMAGEBUTTON "Btn_Other" "openextra" "SFX\Interface\ClickB.wav" 8 4 24 24 0 0 0 0 4 30 255 0 255 255 "Button\按钮_a1-x2.tga" "Button\按钮_a2-x2.tga" 5 1
-IMAGEPICTURE "Item_1" "" "" 32 10 64 64 1 0 "Window\图标_物品栏.dds"
-IMAGEPICTURE "Item_2" "" "" 98 10 64 64 1 0 "Window\图标_物品栏.dds"
-IMAGEPICTURE "Item_3" "" "" 164 10 64 64 1 0 "Window\图标_物品栏.dds"
-IMAGEPICTURE "Item_4" "" "" 230 10 64 64 1 0 "Window\图标_物品栏.dds"
-IMAGEPICTURE "Item_5" "" "" 296 10 64 64 1 0 "Window\图标_物品栏.dds"
-IMAGEPICTURE "Item_6" "" "" 362 10 64 64 1 0 "Window\图标_物品栏.dds"
-IMAGEPICTURE "Item_7" "" "" 428 10 64 64 1 0 "Window\图标_物品栏.dds"
-IMAGEPICTURE "Item_8" "" "" 494 10 64 64 1 0 "Window\图标_物品栏.dds"
-LABEL "Control_698081802" "" "" 66 46 0 0 6 16 7 255 255 255 255
-LABEL "Control_630655460" "" "" 128 46 0 0 8 16 9 255 255 255 255
-LABEL "Control_40766550" "" "" 196 46 0 0 10 16 11 255 255 255 255
-LABEL "Control_178644466" "" "" 262 46 0 0 12 16 13 255 255 255 255
-LABEL "Control_74144360" "" "" 328 46 0 0 14 16 15 255 255 255 255
-LABEL "Control_512603718" "" "" 392 46 0 0 16 16 17 255 255 255 255
-LABEL "Control_9232920" "" "" 460 46 0 0 18 16 19 255 255 255 255
-LABEL "Control_367936386" "" "" 526 46 0 0 20 16 21 255 255 255 255
-STILLIMAGEBUTTON "Btn_Add" "add" "SFX\Interface\ClickB.wav" 554 10 24 24 0 0 0 0 22 30 255 0 255 255 "Button\按钮_U1-x2.tga" "Button\按钮_U2-x2.tga" 23 1
-STILLIMAGEBUTTON "Btn_Minus" "minus" "SFX\Interface\ClickB.wav" 554 52 24 24 0 0 0 0 24 30 255 0 255 255 "Button\按钮_D1-x2.tga" "Button\按钮_D2-x2.tga" 25 1
-STILLIMAGEBUTTON "Btn_Vertigo" "switch" "SFX\Interface\ClickB.wav" 556 30 24 24 0 0 0 0 26 30 255 255 255 255 "Button\按钮_水平1-x2.tga" "Button\按钮_水平2-x2.tga" 27 1
-IMAGEPICTURE "Control_554642718" "" "" 12 52 18 24 1 0 "Extra\复选框_快捷栏单-x2.bmp"
+DIALOG "Win_Quickbar8Ha" 0 0 590 70 0 1 10 "4kv2\window\quickbar.dds" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1
+STILLIMAGEBUTTON "Btn_Other" "openextra" "SFX\Interface\ClickB.wav" 4 2 24 24 0 0 0 0 4 30 255 0 255 255 "Button\按钮_a1-x2.tga" "Button\按钮_a2-x2.tga" 5 1
+STILLIMAGEBUTTON "Btn_New" "new" "SFX\Interface\ClickB.wav" 4 26 24 24 0 0 0 0 2 30 255 0 255 255 "Button\按钮_选择1-x2.tga" "Button\按钮_选择2-x2.tga" 3 1
+IMAGEPICTURE "Control_554642718" "" "" 8 50 18 24 1 0 "Extra\复选框_快捷栏单-x2.bmp"
+IMAGEPICTURE "Item_1" "" "" 32 2 64 64 1 0 "4kv2\window\blue_cell.dds"
+IMAGEPICTURE "Item_2" "" "" 98 2 64 64 1 0 "4kv2\window\blue_cell.dds"
+IMAGEPICTURE "Item_3" "" "" 164 2 64 64 1 0 "4kv2\window\blue_cell.dds"
+IMAGEPICTURE "Item_4" "" "" 230 2 64 64 1 0 "4kv2\window\blue_cell.dds"
+IMAGEPICTURE "Item_5" "" "" 296 2 64 64 1 0 "4kv2\window\blue_cell.dds"
+IMAGEPICTURE "Item_6" "" "" 362 2 64 64 1 0 "4kv2\window\blue_cell.dds"
+IMAGEPICTURE "Item_7" "" "" 428 2 64 64 1 0 "4kv2\window\blue_cell.dds"
+IMAGEPICTURE "Item_8" "" "" 494 2 64 64 1 0 "4kv2\window\blue_cell.dds"
+LABEL "Control_698081802" "" "" 66 38 0 0 6 16 7 255 255 255 255
+LABEL "Control_630655460" "" "" 128 38 0 0 8 16 9 255 255 255 255
+LABEL "Control_40766550" "" "" 196 38 0 0 10 16 11 255 255 255 255
+LABEL "Control_178644466" "" "" 262 38 0 0 12 16 13 255 255 255 255
+LABEL "Control_74144360" "" "" 328 38 0 0 14 16 15 255 255 255 255
+LABEL "Control_512603718" "" "" 392 38 0 0 16 16 17 255 255 255 255
+LABEL "Control_9232920" "" "" 460 38 0 0 18 16 19 255 255 255 255
+LABEL "Control_367936386" "" "" 526 38 0 0 20 16 21 255 255 255 255
+STILLIMAGEBUTTON "Btn_Add" "add" "SFX\Interface\ClickB.wav" 562 2 24 24 0 0 0 0 22 30 255 0 255 255 "Button\按钮_U1-x2.tga" "Button\按钮_U2-x2.tga" 23 1
+STILLIMAGEBUTTON "Btn_Minus" "minus" "SFX\Interface\ClickB.wav" 562 44 24 24 0 0 0 0 24 30 255 0 255 255 "Button\按钮_D1-x2.tga" "Button\按钮_D2-x2.tga" 25 1
+STILLIMAGEBUTTON "Btn_Vertigo" "switch" "SFX\Interface\ClickB.wav" 564 22 24 24 0 0 0 0 26 30 255 255 255 255 "Button\按钮_水平1-x2.tga" "Button\按钮_水平2-x2.tga" 27 1
