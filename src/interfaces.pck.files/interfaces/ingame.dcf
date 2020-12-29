@@ -17,7 +17,7 @@ WorldMap.dtf		-1	-1	0
 WorldMapTravel.dtf	-1	-1	0
 WorldMapDetail.dtf	-1	-1	0
 GuildMap.dtf		-1	-1	0
-Map.dtf			-1	-2	1
+Map.dtf			1750	-2	1
 Activity.dtf            -1      -1      0
 Mark.dtf		0	0	0
 GMapStatus1.dtf		-1	-1	0
@@ -58,7 +58,7 @@ Progress_MP.dtf	    -700	-578 0
 MagicProgress1.dtf	-1	-578	0
 MagicProgress2.dtf	-1	-578	0
 MagicProgress3.dtf	-1	-578	0
-Popmsg.dtf		-1	170	0
+Popmsg.dtf		-1	200	0
 Broken.dtf		0	-1	1
 AccountTime.dtf	-1	10	0
 
@@ -225,12 +225,12 @@ Quickbar9Vb_3.dtf	-2	-1	0
 Quickbar9Vb_4.dtf	-2	-1	0
 Quickbar9Vb_5.dtf	-2	-1	0
 
-Quickbar9Ha.dtf		2200	-2	1
-Quickbar9Hb_1.dtf	2200	-2	0
-Quickbar9Hb_2.dtf	2200	-2	1
-Quickbar9Hb_3.dtf	2200	-2	1
-Quickbar9Hb_4.dtf	2200	-2	1
-Quickbar9Hb_5.dtf	2200	-2	1
+Quickbar9Ha.dtf		2400	-2	1
+Quickbar9Hb_1.dtf	2400	-2	0
+Quickbar9Hb_2.dtf	2400	-2	1
+Quickbar9Hb_3.dtf	2400	-2	1
+Quickbar9Hb_4.dtf	2400	-2	1
+Quickbar9Hb_5.dtf	2400	-2	1
 
 QuickbarPetV.dtf	-50	-1	0
 QuickbarPetH.dtf	-183	-50	0
