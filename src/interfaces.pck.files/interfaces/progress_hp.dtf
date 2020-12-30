@@ -1,6 +1,6 @@
 #Хирка на хп
-DIALOG "Win_PrgsHP" 0 0 272 40 0 1 10 "Window\对话框_透明色.bmp" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1
-PROGRESS "Prgs_HPLeft" "" "" 44 6 184 24 "Progress\BGBarI.tga" "Progress\HPBarI.tga" 0 1 0 1
-IMAGEPICTURE "Cover" "" "" 0 0 272 40 1 0 "Progress\HPBar.tga"
-PROGRESS "Prgs_HPCD" "" "" 44 6 184 30 "Progress\BGBarII.tga" "Progress\HPBarII.tga" 0 0 0 1
-LABEL "Txt_HPLeft" "" "" 136 8 0 0 2 16 3 255 255 255 255
+DIALOG "Win_PrgsHP" 0 0 250 48 0 1 10 "Window\对话框_透明色.bmp" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1
+PROGRESS "Prgs_HPLeft" "" "" 7 0 228 48 "4kv2\progress\hp_battery_bg.tga" "4kv2\progress\hp_battery_left.tga" 0 0 0 0
+IMAGEPICTURE "Cover" "" "" 0 0 250 48 1 0 "4kv2\progress\hp_battery_cover.tga"
+PROGRESS "Prgs_HPCD" "" "" 7 0 228 48 "Progress\BGBarII.tga" "4kv2\progress\hp_battery_cd.tga" 0 0 0 0
+LABEL "Txt_HPLeft" "" "" 7 7 228 0 2 24 3 255 203 74 255
