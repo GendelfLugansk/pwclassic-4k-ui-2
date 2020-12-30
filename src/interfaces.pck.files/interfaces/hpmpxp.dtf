@@ -1,5 +1,5 @@
 #Собственные хп/мп/эксп/статусы (верхний левый угол)
-DIALOG "Win_Hpmpxp" 0 0 2500 208 0 1 10 "" "" "" 0 0 -1 -1 "" 0 0 96 96 96 6 1
+DIALOG "Win_Hpmpxp" 0 0 1156 208 0 1 10 "" "" "" 0 0 -1 -1 "" 0 0 96 96 96 6 1
 
 #Background
 
@@ -27,63 +27,63 @@ CHECK "Chk_AutoLock" "" "" 550 40 32 32 "4kv2\autolock.tga"
 
 #Statuses
 
-IMAGEPICTURE "St_1" "" "" 584 40 32 32 1 0 "Window\对话框_透明色.bmp"
-IMAGEPICTURE "St_2" "" "" 618 40 32 32 1 0 "Window\对话框_透明色.bmp"
-IMAGEPICTURE "St_3" "" "" 652 40 32 32 1 0 "Window\对话框_透明色.bmp"
-IMAGEPICTURE "St_4" "" "" 686 40 32 32 1 0 "Window\对话框_透明色.bmp"
-IMAGEPICTURE "St_5" "" "" 720 40 32 32 1 0 "Window\对话框_透明色.bmp"
-IMAGEPICTURE "St_6" "" "" 754 40 32 32 1 0 "Window\对话框_透明色.bmp"
-IMAGEPICTURE "St_7" "" "" 788 40 32 32 1 0 "Window\对话框_透明色.bmp"
-IMAGEPICTURE "St_8" "" "" 822 40 32 32 1 0 "Window\对话框_透明色.bmp"
-IMAGEPICTURE "St_9" "" "" 856 40 32 32 1 0 "Window\对话框_透明色.bmp"
-IMAGEPICTURE "St_10" "" "" 890 40 32 32 1 0 "Window\对话框_透明色.bmp"
-IMAGEPICTURE "St_11" "" "" 924 40 32 32 1 0 "Window\对话框_透明色.bmp"
-IMAGEPICTURE "St_12" "" "" 958 40 32 32 1 0 "Window\对话框_透明色.bmp"
-IMAGEPICTURE "St_13" "" "" 992 40 32 32 1 0 "Window\对话框_透明色.bmp"
-IMAGEPICTURE "St_14" "" "" 1026 40 32 32 1 0 "Window\对话框_透明色.bmp"
-IMAGEPICTURE "St_15" "" "" 1060 40 32 32 1 0 "Window\对话框_透明色.bmp"
-IMAGEPICTURE "St_16" "" "" 1094 40 32 32 1 0 "Window\对话框_透明色.bmp"
-IMAGEPICTURE "St_17" "" "" 1128 40 32 32 1 0 "Window\对话框_透明色.bmp"
-IMAGEPICTURE "St_18" "" "" 1162 40 32 32 1 0 "Window\对话框_透明色.bmp"
-IMAGEPICTURE "St_19" "" "" 1196 40 32 32 1 0 "Window\对话框_透明色.bmp"
-IMAGEPICTURE "St_20" "" "" 1230 40 32 32 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_1" "" "" 584 6 32 32 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_2" "" "" 618 6 32 32 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_3" "" "" 652 6 32 32 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_4" "" "" 686 6 32 32 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_5" "" "" 720 6 32 32 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_6" "" "" 754 6 32 32 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_7" "" "" 788 6 32 32 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_8" "" "" 822 6 32 32 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_9" "" "" 856 6 32 32 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_10" "" "" 890 6 32 32 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_11" "" "" 584 40 32 32 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_12" "" "" 618 40 32 32 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_13" "" "" 652 40 32 32 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_14" "" "" 686 40 32 32 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_15" "" "" 720 40 32 32 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_16" "" "" 754 40 32 32 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_17" "" "" 788 40 32 32 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_18" "" "" 822 40 32 32 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_19" "" "" 856 40 32 32 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_20" "" "" 890 40 32 32 1 0 "Window\对话框_透明色.bmp"
 
 #Progress bars line 1
 
-PROGRESS "Prgs_HP" "" "" 223 76 2272 48 "4kv2\progress\hpbarbg.tga" "4kv2\progress\hpbar.tga" 0 0 0 0
+PROGRESS "Prgs_HP" "" "" 223 76 928 48 "4kv2\progress\hpbarbg.tga" "4kv2\progress\hpbar.tga" 0 0 0 0
 IMAGEPICTURE "" "" "" 218 76 5 48 1 0 "4kv2\progress\hpbar_l.tga"
-IMAGEPICTURE "" "" "" 2495 76 5 48 1 0 "4kv2\progress\hpbar_r.tga"
-LABEL "Txt_HP" "" "" 1359 79 0 0 12 30 13 255 203 74 255
+IMAGEPICTURE "" "" "" 1151 76 5 48 1 0 "4kv2\progress\hpbar_r.tga"
+LABEL "Txt_HP" "" "" 687 79 0 0 12 30 13 255 203 74 255
 
 #Progress bars line 2
 
-PROGRESS "Prgs_MP" "" "" 223 128 1152 48 "4kv2\progress\mpbarbg.tga" "4kv2\progress\mpbar.tga" 0 0 0 0
+PROGRESS "Prgs_MP" "" "" 223 128 460 48 "4kv2\progress\mpbarbg.tga" "4kv2\progress\mpbar.tga" 0 0 0 0
 IMAGEPICTURE "" "" "" 218 128 5 48 1 0 "4kv2\progress\mpbar_l.tga"
-IMAGEPICTURE "" "" "" 1375 128 5 48 1 0 "4kv2\progress\mpbar_r.tga"
-LABEL "Txt_MP" "" "" 799 131 0 0 10 30 11 255 203 74 255
+IMAGEPICTURE "" "" "" 683 128 5 48 1 0 "4kv2\progress\mpbar_r.tga"
+LABEL "Txt_MP" "" "" 453 131 0 0 10 30 11 255 203 74 255
 
-PROGRESS "Prgs_EXP" "" "" 1389 128 488 48 "4kv2\progress\xpbarbg.tga" "4kv2\progress\xpbar.tga" 0 0 0 0
-IMAGEPICTURE "" "" "" 1384 128 5 48 1 0 "4kv2\progress\xpbar_l.tga"
-IMAGEPICTURE "" "" "" 1877 128 5 48 1 0 "4kv2\progress\xpbar_r.tga"
-IMAGEPICTURE "Pic_MinusExp" "" "" 1389 133 488 38 1 0 "Progress\进度条_棕2.bmp"
-LABEL "TXT_EXP" "" "" 1632 131 0 0 2 30 3 255 203 74 255
+PROGRESS "Prgs_EXP" "" "" 697 128 164 48 "4kv2\progress\xpbarbg.tga" "4kv2\progress\xpbar.tga" 0 0 0 0
+IMAGEPICTURE "" "" "" 692 128 5 48 1 0 "4kv2\progress\xpbar_l.tga"
+IMAGEPICTURE "" "" "" 861 128 5 48 1 0 "4kv2\progress\xpbar_r.tga"
+IMAGEPICTURE "Pic_MinusExp" "" "" 697 133 164 38 1 0 "Progress\进度条_棕2.bmp"
+LABEL "TXT_EXP" "" "" 779 131 0 0 2 30 3 255 203 74 255
 
-PROGRESS "Prgs_AP" "" "" 1891 128 488 48 "4kv2\progress\apbarbg.tga" "4kv2\progress\apbar.tga" 0 1 0 1
-IMAGEPICTURE "" "" "" 1886 128 5 48 1 0 "4kv2\progress\apbar_l.tga"
-IMAGEPICTURE "" "" "" 2379 128 5 48 1 0 "4kv2\progress\apbar_r.tga"
+PROGRESS "Prgs_AP" "" "" 875 128 164 48 "4kv2\progress\apbarbg.tga" "4kv2\progress\apbar.tga" 0 1 0 1
+IMAGEPICTURE "" "" "" 870 128 5 48 1 0 "4kv2\progress\apbar_l.tga"
+IMAGEPICTURE "" "" "" 1039 128 5 48 1 0 "4kv2\progress\apbar_r.tga"
 
-IMAGEPICTURE "Img_P1off" "" "" 2380 110 80 80 1 0 "Progress\AP_A.tga"
-IMAGEPICTURE "Img_P1on" "" "" 2380 110 80 80 6 75 "Progress\AP_B.tga"
-IMAGEPICTURE "Img_P1flash" "" "" 2380 110 80 80 3 150 "Progress\AP_C.tga"
-IMAGEPICTURE "Img_P2off" "" "" 2410 110 80 80 1 0 "Progress\AP_A.tga"
-IMAGEPICTURE "Img_P2on" "" "" 2410 110 80 80 6 75 "Progress\AP_B.tga"
-IMAGEPICTURE "Img_P2flash" "" "" 2410 110 80 80 3 150 "Progress\AP_C.tga"
-IMAGEPICTURE "Img_P3off" "" "" 2440 110 80 80 1 0 "Progress\AP_A.tga"
-IMAGEPICTURE "Img_P3on" "" "" 2440 110 80 80 6 75 "Progress\AP_B.tga"
-IMAGEPICTURE "Img_P3flash" "" "" 2440 110 80 80 3 150 "Progress\AP_C.tga"
+IMAGEPICTURE "Img_P1off" "" "" 1048 110 80 80 1 0 "Progress\AP_A.tga"
+IMAGEPICTURE "Img_P1on" "" "" 1048 110 80 80 6 75 "Progress\AP_B.tga"
+IMAGEPICTURE "Img_P1flash" "" "" 1048 110 80 80 3 150 "Progress\AP_C.tga"
+IMAGEPICTURE "Img_P2off" "" "" 1078 110 80 80 1 0 "Progress\AP_A.tga"
+IMAGEPICTURE "Img_P2on" "" "" 1078 110 80 80 6 75 "Progress\AP_B.tga"
+IMAGEPICTURE "Img_P2flash" "" "" 1078 110 80 80 3 150 "Progress\AP_C.tga"
+IMAGEPICTURE "Img_P3off" "" "" 1108 110 80 80 1 0 "Progress\AP_A.tga"
+IMAGEPICTURE "Img_P3on" "" "" 1108 110 80 80 6 75 "Progress\AP_B.tga"
+IMAGEPICTURE "Img_P3flash" "" "" 1108 110 80 80 3 150 "Progress\AP_C.tga"
 
 #Combat mask
-IMAGEPICTURE "CombatMask" "" "" 0 0 2500 208 1 0 "4kv2\hpmpxp_mask.tga"
+IMAGEPICTURE "CombatMask" "" "" 0 0 1156 208 1 0 "4kv2\hpmpxp_mask.tga"
 
 #Character's face
 IMAGEPICTURE "Size" "" "" 32 32 144 144 1 0 "Window\对话框_透明色.bmp"
