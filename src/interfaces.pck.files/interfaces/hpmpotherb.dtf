@@ -1,5 +1,5 @@
 #Player target
-DIALOG "Win_HpmpOtherB" 0 0 1212 168 0 1 10 "" "" "" 0 0 -1 -1 "" 0 0 96 96 96 0 1
+DIALOG "Win_HpmpOtherB" 0 0 1004 168 0 1 10 "" "" "" 0 0 -1 -1 "" 0 0 96 96 96 0 1
 
 #Background
 IMAGEPICTURE "Back" "" "" 0 0 168 168 1 0 "4kv2\hpmpxp_back1.tga"
@@ -11,10 +11,10 @@ STILLIMAGEBUTTON "Btn_1" "change" "SFX\Interface\ClickB.wav" 8 8 24 24 0 0 0 0 4
 IMAGEPICTURE "Size" "" "" 26 26 116 116 1 0 "Window\对话框_透明色.bmp"
 
 #HP
-PROGRESS "Prgs_HP" "" "" 183 16 1024 48 "4kv2\progress\hpbarbg_other.tga" "4kv2\progress\hpbar.tga" 0 0 0 0
+PROGRESS "Prgs_HP" "" "" 183 16 816 48 "4kv2\progress\hpbarbg_other.tga" "4kv2\progress\hpbar.tga" 0 0 0 0
 IMAGEPICTURE "" "" "" 178 16 5 48 1 0 "4kv2\progress\hpbar_l.tga"
-IMAGEPICTURE "" "" "" 1207 16 5 48 1 0 "4kv2\progress\hpbar_r.tga"
-STILLIMAGEBUTTON "Btn_Pet" "tracepet" "" 1172 68 36 36 0 0 0 0 8 30 255 255 255 255 "宠物追踪21-x2.tga" "宠物追踪21-x2.tga" 9 1
+IMAGEPICTURE "" "" "" 999 16 5 48 1 0 "4kv2\progress\hpbar_r.tga"
+STILLIMAGEBUTTON "Btn_Pet" "tracepet" "" 964 68 36 36 0 0 0 0 8 30 255 255 255 255 "宠物追踪21-x2.tga" "宠物追踪21-x2.tga" 9 1
 
 #Profession, level, name
 IMAGEPICTURE "" "" "" 178 68 506 40 1 0 "4kv2\window\hpmp_other_name.tga"
@@ -30,13 +30,13 @@ IMAGEPICTURE "St_4" "" "" 790 68 32 32 1 0 "Window\对话框_透明色.bmp"
 IMAGEPICTURE "St_5" "" "" 824 68 32 32 1 0 "Window\对话框_透明色.bmp"
 IMAGEPICTURE "St_6" "" "" 858 68 32 32 1 0 "Window\对话框_透明色.bmp"
 IMAGEPICTURE "St_7" "" "" 892 68 32 32 1 0 "Window\对话框_透明色.bmp"
-IMAGEPICTURE "St_8" "" "" 926 68 32 32 1 0 "Window\对话框_透明色.bmp"
-IMAGEPICTURE "St_9" "" "" 960 68 32 32 1 0 "Window\对话框_透明色.bmp"
-IMAGEPICTURE "St_10" "" "" 994 68 32 32 1 0 "Window\对话框_透明色.bmp"
-IMAGEPICTURE "St_11" "" "" 1028 68 32 32 1 0 "Window\对话框_透明色.bmp"
-IMAGEPICTURE "St_12" "" "" 1062 68 32 32 1 0 "Window\对话框_透明色.bmp"
-IMAGEPICTURE "St_13" "" "" 1096 68 32 32 1 0 "Window\对话框_透明色.bmp"
-IMAGEPICTURE "St_14" "" "" 1130 68 32 32 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_8" "" "" 688 102 32 32 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_9" "" "" 722 102 32 32 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_10" "" "" 756 102 32 32 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_11" "" "" 790 102 32 32 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_12" "" "" 824 102 32 32 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_13" "" "" 858 102 32 32 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_14" "" "" 892 102 32 32 1 0 "Window\对话框_透明色.bmp"
 
 #Faction
 IMAGEPICTURE "" "" "" 178 112 506 40 1 0 "4kv2\window\hpmp_other_name.tga"

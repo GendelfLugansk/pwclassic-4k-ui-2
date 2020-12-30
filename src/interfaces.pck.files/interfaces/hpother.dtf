@@ -1,15 +1,15 @@
 #NPC/Mob minified
-DIALOG "Win_HpOther" 0 0 1090 108 0 1 10 "" "" "" 0 0 -1 -1 "" 0 0 96 96 96 0 1
+DIALOG "Win_HpOther" 0 0 882 108 0 1 10 "" "" "" 0 0 -1 -1 "" 0 0 96 96 96 0 1
 
 #Show/hide hp numbers
 STILLIMAGEBUTTON "Btn_ShowHP" "showhp" "SFX\Interface\ClickB.wav" 0 8 24 24 0 0 0 0 8 30 255 255 255 255 "4kv2\window\blue_circle_checked.tga" "4kv2\window\blue_circle.tga" 9 1
 
 #HP
-PROGRESS "Prgs_HP" "" "" 33 16 1024 48 "4kv2\progress\hpbarbg_other.tga" "4kv2\progress\hpbar.tga" 0 0 0 0
+PROGRESS "Prgs_HP" "" "" 33 16 816 48 "4kv2\progress\hpbarbg_other.tga" "4kv2\progress\hpbar.tga" 0 0 0 0
 IMAGEPICTURE "" "" "" 28 16 5 48 1 0 "4kv2\progress\hpbar_l.tga"
-IMAGEPICTURE "" "" "" 1057 16 5 48 1 0 "4kv2\progress\hpbar_r.tga"
-LABEL "Txt_HP" "" "" 33 16 1024 0 10 30 11 255 203 74 255
-STILLIMAGEBUTTON "Btn_Player" "traceplayer" "" 1022 68 36 36 0 0 0 0 12 30 255 255 255 255 "³èÎï×·×Ù11-x2.tga" "³èÎï×·×Ù11-x2.tga" 13 1
+IMAGEPICTURE "" "" "" 849 16 5 48 1 0 "4kv2\progress\hpbar_r.tga"
+LABEL "Txt_HP" "" "" 33 16 816 0 10 30 11 255 203 74 255
+STILLIMAGEBUTTON "Btn_Player" "traceplayer" "" 814 68 36 36 0 0 0 0 12 30 255 255 255 255 "³èÎï×·×Ù11-x2.tga" "³èÎï×·×Ù11-x2.tga" 13 1
 
 #Name and pet/demon icon
 IMAGEPICTURE "" "" "" 28 68 506 40 1 0 "4kv2\window\hpmp_other_name.tga"
