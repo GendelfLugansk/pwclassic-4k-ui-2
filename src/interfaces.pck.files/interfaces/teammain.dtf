@@ -1,5 +1,5 @@
 #Пати
-DIALOG "Win_TeamMain" 0 0 228 54 0 1 10 "Window\对话框_透明色5.tga" "" "" 0 0 150 27 "" 30 3 96 96 96 255 1
+DIALOG "Win_TeamMain" 0 0 228 54 0 1 10 "4kv2\window\blue4x4.tga" "" "" 0 0 150 27 "" 30 3 96 96 96 255 1
 LABEL "Txt_TeamMain" "" "" 50 7 168 42 2 24 3 255 203 74 255
 CHECK "Chk_Mini" "minimize" "SFX\Interface\ClickA.wav" 167 16 24 30 "Extra\复选框_展开-x2.bmp"
 STILLIMAGEBUTTON "Btn_Arrow" "arrow" "" 7 12 32 32 0 0 0 0 4 30 255 255 255 255 "Button\按钮_队长1-x2.dds" "Button\按钮_队长2-x2.dds" 5 1
