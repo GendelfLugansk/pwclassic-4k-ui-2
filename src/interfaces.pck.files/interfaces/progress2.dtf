@@ -1,4 +1,5 @@
 #Прогресс копалки
-DIALOG "Win_Prgs2" 0 0 360 40 0 1 10 "" "" "" 0 0 -1 -1 "" 0 0 96 96 96 6 1
-PROGRESS "Prgs" "" "" 0 0 360 40 "Window\对话框_标准边框-x2.dds" "Progress\进度条_天2-x2.bmp" 10 10 10 10
-LABEL "1" "" "" 154 0 102 36 2 24 3 255 203 74 255
+DIALOG "Win_Prgs2" 0 0 402 48 0 1 10 "" "" "" 0 0 -1 -1 "" 0 0 96 96 96 6 1
+PROGRESS "Prgs" "" "" 5 0 392 48 "4kv2\progress\miner_progress_bg.tga" "4kv2\progress\miner_progress_left.tga" 0 0 0 0
+IMAGEPICTURE "Cover" "" "" 0 0 402 48 1 0 "4kv2\progress\miner_progress_cover.tga"
+LABEL "1" "" "" 176 7 0 0 2 24 3 255 203 74 255
