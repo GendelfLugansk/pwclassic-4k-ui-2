@@ -53,20 +53,20 @@ IMAGEPICTURE "St_20" "" "" 890 6 32 32 1 0 "Window\对话框_透明色.bmp"
 PROGRESS "Prgs_HP" "" "" 223 76 928 48 "4kv2\progress\hpbarbg.tga" "4kv2\progress\hpbar.tga" 0 0 0 0
 IMAGEPICTURE "" "" "" 218 76 5 48 1 0 "4kv2\progress\hpbar_l.tga"
 IMAGEPICTURE "" "" "" 1151 76 5 48 1 0 "4kv2\progress\hpbar_r.tga"
-LABEL "Txt_HP" "" "" 687 79 0 0 12 30 13 255 203 74 255
+LABEL "Txt_HP" "" "" 687 84 0 0 12 24 13 255 203 74 255
 
 #Progress bars line 2
 
 PROGRESS "Prgs_MP" "" "" 223 128 460 48 "4kv2\progress\mpbarbg.tga" "4kv2\progress\mpbar.tga" 0 0 0 0
 IMAGEPICTURE "" "" "" 218 128 5 48 1 0 "4kv2\progress\mpbar_l.tga"
 IMAGEPICTURE "" "" "" 683 128 5 48 1 0 "4kv2\progress\mpbar_r.tga"
-LABEL "Txt_MP" "" "" 453 131 0 0 10 30 11 255 203 74 255
+LABEL "Txt_MP" "" "" 453 136 0 0 10 24 11 255 203 74 255
 
 PROGRESS "Prgs_EXP" "" "" 697 128 232 48 "4kv2\progress\xpbarbg.tga" "4kv2\progress\xpbar.tga" 0 0 0 0
 IMAGEPICTURE "" "" "" 692 128 5 48 1 0 "4kv2\progress\xpbar_l.tga"
 IMAGEPICTURE "" "" "" 929 128 5 48 1 0 "4kv2\progress\xpbar_r.tga"
 IMAGEPICTURE "Pic_MinusExp" "" "" 697 133 232 38 1 0 "Progress\进度条_棕2.bmp"
-LABEL "TXT_EXP" "" "" 813 131 0 0 2 30 3 255 203 74 255
+LABEL "TXT_EXP" "" "" 813 136 0 0 2 24 3 255 203 74 255
 
 PROGRESS "Prgs_AP" "" "" 943 128 208 48 "4kv2\progress\apbarbg.tga" "4kv2\progress\apbar.tga" 0 1 0 1
 IMAGEPICTURE "" "" "" 938 128 5 48 1 0 "4kv2\progress\apbar_l.tga"
