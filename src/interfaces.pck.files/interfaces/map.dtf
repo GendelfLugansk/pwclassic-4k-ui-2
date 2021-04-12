@@ -14,8 +14,8 @@ CHECK "Chk_SwitchSafety" "safe" "SFX\Interface\ClickA.wav" 318 254 48 48 "Extra\
 CHECK "Check_Mark" "openmarkwin" "SFX\Interface\ClickA.wav" 338 134 50 50 "Extra\复选框_标记.tga"
 CHECK "Chk_Activity" "activity" "SFX\Interface\ClickA.wav" 283 35 40 40 "Extra\正常状态.tga"
 
-IMAGEPICTURE "Img_SystemTime" "" "" 83 174 32 32 4 0 "Window\servertime.tga" ""
-CHECK "Chk_Mail" "" "" 119 174 36 32 "Window\信件.tga"
+IMAGEPICTURE "Img_SystemTime" "" "" -16 64 32 32 4 0 "Window\servertime.tga" ""
+CHECK "Chk_Mail" "" "" -56 64 36 32 "Window\信件.tga"
 
 
 LABEL "Txt_Address" "" "" -70 5 100 0 3 20 4 255 255 255 255
