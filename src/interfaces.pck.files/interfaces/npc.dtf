@@ -8,4 +8,4 @@ IMAGEPICTURE "D" "" "" 50 818 1024 64 1 0 "Window\花纹_D.dds"
 LABEL "Txt_npc" "" "" 312 58 0 0 3 32 4 255 203 74 255
 STILLIMAGEBUTTON "Btn_Back" "back" "SFX\Interface\ClickB.wav" 276 788 80 48 0 0 0 0 5 20 255 255 255 255 "Button\按钮_文本1-x2.dds" "Button\按钮_文本2-x2.dds" 6 1
 TEXT "Txt_Content" "" "" 40 114 546 470 7 24 255 255 255 255 "Editbox\文本框_4-x2.dds" "Listbox\列表框_上移-x2.bmp" "Listbox\列表框_下移-x2.bmp" "Listbox\列表框_滚动槽1-x2.tga" "Listbox\列表框_拖动按钮1-x2.bmp"
-LIST "Lst_Main" "listchoose" "" 40 584 546 202 8 20 255 255 255 255 "Editbox\文本框_4b-x2.dds" "Listbox\列表框_反显-x2.dds" "Listbox\列表框_上移-x2.bmp" "Listbox\列表框_下移-x2.bmp" "Listbox\列表框_滚动槽1-x2.tga" "Listbox\列表框_拖动按钮1-x2.bmp" 0 "0"
+LIST "Lst_Main" "listchoose" "" 40 584 546 202 8 14 255 255 255 255 "Editbox\文本框_4b-x2.dds" "Listbox\列表框_反显-x2.dds" "Listbox\列表框_上移-x2.bmp" "Listbox\列表框_下移-x2.bmp" "Listbox\列表框_滚动槽1-x2.tga" "Listbox\列表框_拖动按钮1-x2.bmp" 0 "0"
